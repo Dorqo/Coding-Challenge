@@ -1,0 +1,66 @@
+body{
+    background-image: url(background.jpg);
+    background-size: 100%;
+}
+
+img{
+
+    width: 20%;
+    height: 20%;
+}
+
+div{
+    margin: auto;
+    text-align: center;
+    font-family: "Noto Sans", sans-serif;
+}
+
+div.header,main,section{
+    width: 80%;
+    margin-left: 10%;
+}
+
+section,section>div{
+    margin-left: 0;
+    text-align: left;
+    color: white;
+    margin: 5px;
+}
+
+div.backplate{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin-top: 20px;
+    width: 60%;
+    border-radius:25px;
+    background: rgba(0,0,0,0.5);
+}
+
+.controls{
+    background-color: #00DD00;
+    padding: 10px;
+}
+
+.scooterName{
+    font-size: 25px;
+}
+
+.charge{
+    border-radius: 5px;
+    padding: 15px;   
+}
+
+#scooter1{
+    width: 50%;
+    background-color: #ddb800e1;    
+}
+
+#scooter2{
+    width: 80%;
+    background-color: #00DD00;    
+}
+
+#scooter3{
+    width: 20%;
+    background-color: #ff5757;    
+}
